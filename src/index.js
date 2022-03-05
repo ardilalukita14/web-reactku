@@ -1,13 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Test from './container/Test';
+import HelloComponent from './component/HelloComponent';
 
-const Hello = () => {
-  return <p>hello</p>
-}
+// const Hello = () => {
+//   return <p>hello</p>
+// }
 
+// function HelloComponent() {
+//   return HelloComponent
+   ReactDOM.render(<HelloComponent />, document.getElementById('root'));
+// }
+
+// const HelloComponent=()=>{
+//   return HelloComponent
+// }
+
+// class StateFullComponent extends React.Component {
+//   render() { 
+//     return<p>StateFullComponent</p>
+//   }
+// }
+
+// ReactDOM.render(<StateFullComponent />, document.getElementById('root'));
+
+  // ReactDOM.render(<Test />, document.getElementById('root'));
 
 // ReactDOM.render(
 //  <React.StrictMode>
@@ -16,7 +36,7 @@ const Hello = () => {
 //  document.getElementById('root')
 // );
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+  // ReactDOM.render(<Hello />, document.getElementById('root'));
 
 // ReactDOM.render(<p> hello world</p>, document.getElementById('root'));
 
