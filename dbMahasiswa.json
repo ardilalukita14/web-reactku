@@ -1,50 +1,40 @@
 {
-    "mahasiswa": [
+  "mahasiswa": [
     {
-    "nim": 2041720056,
-    "nama": "Reynal Putra Raharja",
-    "alamat": "Jl. Kemasan No. 6 Magetan", 
-    "hp": "085678903245",
-    "angkatan": 2020, 
-    "status": "Aktif"
+      "nim": 2041720056,
+      "id": 1,
+      "nama": "Reynal Putra Raharja",
+      "alamat": "Jl. Kemasan No. 06 Magetan",
+      "hp": "085678903245",
+      "angkatan": 2020,
+      "status": "Aktif"
     },
-
     {
-    "nim": 2190567689,
-    "nama": "Wirda Mutiara",
-    "alamat": "Jl. Sumatra No.23 Madiun", 
-    "hp": "081890567809",
-    "angkatan": 2021, 
-    "status": "Aktif"
+      "nim": 2190567689,
+      "id": 2,
+      "nama": "Wirda Mutiara",
+      "alamat": "Jl. Sumatra No.23 Madiun",
+      "hp": "081890567809",
+      "angkatan": 2021,
+      "status": "Aktif"
     },
-
     {
-        "nim": 1456700891,
-        "nama": "Putra Gunawan",
-        "alamat": "Jl. Soekarno Hatta No.09 Malang", 
-        "hp": "089567890346",
-        "angkatan": 2014, 
-        "status": "Lulus"
-        },
-    
-    
+      "nim": 1456700891,
+      "id": 3,
+      "nama": "Putra Gunawan",
+      "alamat": "Jl. Soekarno Hatta No.09 Malang",
+      "hp": "089567890346",
+      "angkatan": 2014,
+      "status": "Lulus"
+    },
     {
-        "nim": 1941720001,
-        "nama": "Auliya Purnamasari",
-        "alamat": "Jl. Mastrip No.20 Madiun", 
-        "hp": "085678903452",
-        "angkatan": 2019, 
-        "status": "Cuti"
-        },  
-    
-    {
-        "nim": 1870965432,
-        "nama": "Bagas Ardian",
-        "alamat": "Jl. Ahmad Yani No.10 Surabaya", 
-        "hp": "082345690786",
-        "angkatan": 2018, 
-        "status": "Cuti"
-        }        
-            
-    ]
+      "nim": 1941720001,
+      "id": 4,
+      "nama": "Auliya Purnamasari",
+      "alamat": "Jl. Mastrip No.20 Madiun",
+      "hp": "085678903452",
+      "angkatan": 2019,
+      "status": "Cuti"
     }
+  ]
+}

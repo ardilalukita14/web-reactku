@@ -8,10 +8,57 @@
     display: flex;
 }
 
-/* .gambar-artikel{
-    height: 80px;
-    width: 80px;
-    margin-right: 20px;
+.py-4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textMain{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15pt;
+
+}
+
+.field{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 10pt;
+    width: 250px;
+    margin: auto;
+    
+}
+
+.field{
+    margin-top: 8pt;
+}
+
+.radio-inline{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 10pt;
+    width: 250px;
+    margin-top: 5pt;
+}
+
+.button{
+    margin: auto;
+}
+.thead-dark{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #232323;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.thead-dark, th, td {
+    border: 1px solid white;
+    padding: 8px 20px;
+    background-color: goldenrod;
+    width: 100px;
+    margin-right: 60px;
     vertical-align: top;
 }
 
