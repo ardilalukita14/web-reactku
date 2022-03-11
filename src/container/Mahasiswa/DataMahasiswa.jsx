@@ -68,63 +68,80 @@ class DataMahasiswa extends Component {
      render() {
          return (
 
-            <div className="container">
-            <div className="py-4">
-              <h1>DAFTAR MAHASISWA POLINEMA</h1>
-              <br></br>
-              <br></br>
-              </div>
-            <div className="container">
-            <div className="col-lg-4"></div>
-            <form>
+            <div className="dataMahasiswa">
+            <div className="form pb-2 border-bottom">
+                <div className="form-group row">
+            
                 <h3 className="textMain"><b>Tambah Data Mahasiswa</b></h3>
-
-                <div className="ui divider"></div>
-                    <div className="ui form"></div>
+                <div className="logoPolinema">
+                    <img src="https://1.bp.blogspot.com/-PpH7CcrJIvE/X5WGsZUp6LI/AAAAAAAADRE/VIw1_NyjUC4HUnijuO1r2WBG4tfjpJGbgCLcBGAsYHQ/s1920/Logo%2BPolinema%2B%2528Politeknik%2BNegeri%2BMalang%2529.png" alt="Logo Polinema" />
+            </div>
+                <div className="ui divider">
+                    <div className="ui form">
                     <div className="field">
-                    <label>NIM</label>
+                    <label htmlFor="nim" className="col-sm-2 col-form-label">NIM</label>
                         <input type="text" className="form-control" id="nim" name="nim" placeholder="NIM" onChange={this.handleTambahMahasiswa}/>
                     </div>
 
                     <div className="field">
-                    <label>Nama</label>
+                    <label htmlFor="nama" className="col-sm-2 col-form-label">Nama</label>
                         <input type="text" className="form-control" id="nama" name="nama" placeholder="Nama" onChange={this.handleTambahMahasiswa}/>
                     </div>
 
                     <div className="field">
-                    <label>Alamat</label>
+                    <label htmlFor="alamat" className="col-sm-2 col-form-label">Alamat</label>
                         <input type="text" className="form-control" id="alamat" name="alamat" placeholder="Alamat" onChange={this.handleTambahMahasiswa}/>
                     </div>
 
                     <div className="field">
-                    <label>Nomor HP</label>
+                    <label htmlFor="hp" className="col-sm-2 col-form-label">HP</label>
                         <input type="text" className="form-control" id="hp" name="hp" placeholder="Nomor HP" onChange={this.handleTambahMahasiswa}/>
                     </div>
 
                     <div className="field">
-                    <label>Angkatan</label>
+                    <label htmlFor="angkatan" className="col-sm-2 col-form-label">Angkatan</label>
                         <input type="text" className="form-control" id="angkatan" name="angkatan" placeholder="Tahun Angkatan" onChange={this.handleTambahMahasiswa}/>
                     </div>
-
-                    <div className="field">
-                    <label>Status</label>
-                    <div className="radio-inline">
-                    <label><input type="radio" name="status" onChange={this.handleTambahMahasiswa}/>Aktif</label>
-                    </div>
-                    <div className="radio-inline">
-                    <label><input type="radio"  name="status" onChange={this.handleTambahMahasiswa}/>Lulus</label>
-                    </div>
-                    <div className="radio-inline">
-                    <label><input type="radio"  name="status" onChange={this.handleTambahMahasiswa}/>Cuti</label>
-                        </div>
                     
-                    <br></br>
-                    <div className="button">
-                    <button type="submit" className="btn btn-warning" onClick={this.handleTombolSimpan}>Simpan</button>        
+                     <div className="field">
+                    <label htmlFor="status" className="col-sm-2 col-form-label">Status</label>
+                        <input type="text" className="form-control" id="status" name="status" placeholder="Status" onChange={this.handleTambahMahasiswa}/>
+                    </div>  
+
+                    {/* <div className="field">
+                    <label htmlFor="status" className="col-sm-2 col-form-label">Status</label>
+                    <div className="radio-inline">
+                    <label htmlFor="status" className="col-sm-5 col-form-label">
+                        <input type="radio"  id="status" name="status" onChange={this.handleTambahMahasiswa}/>Aktif</label>
+                    </div>
+                    <div className="radio-inline">
+                    <label htmlFor="status" className="col-sm-5 col-form-label">
+                        <input type="radio"  id="status" name="status" onChange={this.handleTambahMahasiswa}/>Lulus</label>
+                    </div>
+                    <div className="radio-inline">
+                    <label htmlFor="status" className="col-sm-5 col-form-label">
+                        <input type="radio"   id="status" name="status" onChange={this.handleTambahMahasiswa}/>Cuti</label>
+                        </div>
+                     </div> 
+                     <br></br> */}
+                    
+                   <div className="field">
+                    <button type="submit" className="btn btn-warning" onClick={this.handleTombolSimpan}>Submit</button>        
+           
+</div>
+</div>
+          
+          
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                <div className="container">
+            <div className="py-4">
+              <h1>DAFTAR MAHASISWA POLINEMA</h1>
+              </div>
                 </div>
-                </div>
-                <br></br>
-                <br></br>
                 <br></br>
                 <br></br>
               <table className="table border shadow">
@@ -146,10 +163,11 @@ class DataMahasiswa extends Component {
                  }
                </thead>
                </table>
-               </form>
-      </div>
-      </div>
-    
+              
+               </div>
+               </div>
+               </div>
+               </div>
   );
 };
 }
